@@ -1,0 +1,61 @@
+body{
+	font-family: Arial;
+	background-color: white;
+	
+	text-align: center;
+}
+
+.split{
+	height: 90%;
+	width: 50%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20%;
+}
+
+.left{
+	left: 0;
+	background-color: blue;
+	color: yellow;
+}
+
+.right{
+	right: 0;
+	background-color: yellow;
+	color: blue;
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.centered img{
+	width: 140px;
+	border-radius: 50%;
+}
+
+
+  input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+	width: 40%;
+	background: grey;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+ input:hover{
+     background: #f2c143;
+}

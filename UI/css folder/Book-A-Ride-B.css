@@ -1,0 +1,64 @@
+.success, .error{
+	color: white;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+.success{
+	background: blue;
+}
+.error{
+	background: red;
+}
+table,th{
+    border-collapse: collapse;
+    text-align: center;
+	padding: 30px;
+	margin: 20px;
+	border-bottom: 1px #d5d5ff;
+}
+
+
+h1{
+	font-family: Lucida Console, Monaco, monospace;
+	background-color: grey;
+	text-align: center;
+	color:blue;
+}
+body{
+	background: grey;
+}
+.wrap{
+	width: 500px;
+	margin: auto;
+	background: blue;
+	margin-top: 50px;
+	padding: 5px;
+}
+form{
+	padding: 10px;
+	font-family: arial;
+	border: 1px dotted white;
+	margin: 10px;
+}
+input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+}
+input[type=text]{
+	width: 50%;
+}
+input[type=submit]{
+	width: 95%;
+	padding: 10px;
+	margin: 10px;
+	background: yellow;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+input[type=submit]:hover{
+	background: grey;
+}
