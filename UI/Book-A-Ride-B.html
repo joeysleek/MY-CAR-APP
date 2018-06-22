@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Add-View-Ride </title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Book-A-Ride-B.css">
+  <script type="text/javascript"src="main.js"></script>
+</head>
+ <body>
+   <div class="container">
+     <h1>Add-View-Ride</h1>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+        <th> Drivers Name </th>
+        <th> Car Type </th>
+        <th> Daily Price </th>
+        <th> Hour Price </th>
+        <th> Route </th>
+        <th></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+     </table>
+     <hr><br>
+     <div class="wrap">
+      <form id="book-form">
+       <div>
+          <label for="driver"><strong>Drivers Name<strong></label>
+          <input type="text" id="driver" class="u-full-width">
+        </div>
+        <div>
+          <label for="car">Car type</label>
+          <input type="text" id="car" class="u-full-width">
+        </div>
+        <div>
+          <label for="daily">Daily Price</label>
+          <input type="text" id="daily" class="u-full-width">
+        </div>
+        <div>
+          <label for="hour">Hour Price</label>
+          <input type="text" id="hour" class="u-full-width">
+        </div>
+        <div>
+          <label for="location">Route</label>
+          <input type="text" id="location" class="u-full-width">
+        </div>
+        <div>
+          <input type="submit" value="Submit" class="u-full-width">
+        </div>
+      </form>
+    </div>
+   </div>
+   <script src="main.js"></script>
+ </body>
+</html>
