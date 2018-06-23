@@ -1,14 +1,17 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "start": "node server.js"
     "heroku:start": "node server/bin/bootstrap"
   },
   "author": "",
   "license": "ISC",
+  "engines":{
+    "node": "10.0.0"
+  },
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3",
