@@ -1,3 +1,7 @@
+require('babel-register')({
+   presets: [ 'es2015' ]
+});
+
 import express from 'express';
 import * as v1 from './routes/v1';
 
@@ -42,7 +46,7 @@ app
   });
 
 // redirect to api url set in process.env
-app.get('/', (req res) => {
+app.get('/', (req, res) => {
 	res.redirect(`api/${process.env.VERSION}`);
 });
 
