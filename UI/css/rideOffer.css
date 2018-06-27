@@ -1,3 +1,46 @@
+.menu{
+	width : 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+}
+.leftmenu{
+	width: 55%;
+	padding-top: 2%;
+	margin-left: 2%;
+}
+.leftmenu h4{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.rightmenu{
+	width: 45%;
+    justify-content: space-evenly;
+	
+}
+.rightmenu ul{
+
+}
+
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+#firstlist{
+	color: orange;
+}
+.rightmenu ul li:hover{
+     color: orange;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -6,21 +49,6 @@
 body{
     font-family: 'Open Sans';
 }
-<<<<<<< HEAD
-table,thead{
-    border-collapse: collapse;
-    text-align: center;
-	padding: 30px;
-	margin: 20px;
-	border-bottom: 1px blavk;
-}
-
-h1{
-	font-family: Lucida Console, Monaco, monospace;
-	background-color: grey;
-	text-align: center;
-	color:blue;
-=======
 a{
 	text-decoration: none;
 }
@@ -36,7 +64,6 @@ div#header{
 	float: left;
 	padding: 10px;
 	margin:left: 10px;
->>>>>>> changed my UI
 }
 .logo a{
 	font-size: 1.6em;
@@ -71,15 +98,6 @@ div#box{
 	margin-top: 15px;
 }
 
-<<<<<<< HEAD
-form{
-	margin-top: 50px;
-	width: 500px;
-	padding: 10px;
-	font-family: arial;
-	border: 1px dotted blue;
-	margin: 10px;
-=======
 div#box .box-top{
 	color: #fff;
 	text-shadow: 0px 0px 1px #000;
@@ -94,7 +112,6 @@ div#box .box-panel{
 	background-color: #fff;
 	color: #333;
 	font-size: 0.56em;
->>>>>>> changed my UI
 }
 
 ul#nav{
