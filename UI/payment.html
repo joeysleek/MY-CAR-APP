@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/payment.css">
+</head>
+    <body>
+      <div class="wrapper">
+         <div class="container">
+            <div class="tabs"> 
+              <ul>
+                 <li> Requests </li>
+                 <li class="active"> Payment </li>
+                 <li> Summary </li>
+              </ul>
+            </div>
+            
+            <div class="pay-type">
+              <input class="payment" id="c-card" type="checkbox" checkbox=true>
+              <label for="c-card"> Credit Card</label>
+              <input  class="payment" id="paypal" type="checkbox">
+              <label for="">PayPal</label>
+            </div>
+
+            <form>
+              <label for="name"> Name </label>
+              <input type="text">
+
+              <label for="cc-number">Credit Card Number</label>
+              <input id="cc-number" type="text">
+            <div class="validation">
+              <label for="expiry"> expiration Date</label>
+              <inputid="expiry" type-"text">
+              
+              <label for="cvv">CVV</label>
+              <input id="cvv"type="text">
+            </div>
+         </div>
+         <button class="button"> Submit </button>
+      </div>
+    </body>
+</html>
